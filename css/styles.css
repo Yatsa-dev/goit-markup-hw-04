@@ -60,6 +60,7 @@ h6 {
   align-items: center;
 }
 .auth-nav .send {
+  /* display: block; */
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -133,7 +134,9 @@ ul {
 /*Site-nav*/
 .site-nav {
   display: flex;
+
   color: var(--title-text-color);
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -150,9 +153,14 @@ ul {
 .hero-container {
 }
 .hero {
-  background-image: url(../images/);
+  background-image: url(../images/Img14-1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
   padding-bottom: 280px;
   padding-top: 200px;
+
   background-color: var(--second-bg-color);
   align-items: center;
   text-align: center;
@@ -164,6 +172,7 @@ ul {
   margin-bottom: 30px;
 
   color: var(--second-text-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -277,6 +286,20 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+}
+/* Section our clients */
+.our-clients {
+  padding: 94px 0px;
+}
+.item-clients {
+  display: flex;
+}
+.item-clients .item {
+  width: 170px;
+  height: 90px;
+}
+.item-clients .item + .item {
+  margin-left: 30px;
 }
 /* Footer */
 .footer-container {
