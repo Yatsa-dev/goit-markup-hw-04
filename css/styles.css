@@ -241,6 +241,19 @@ ul {
   letter-spacing: 0.03em;
 }
 /* Features */
+
+.item-background {
+  margin-bottom: 30px;
+  background-color: var(--section-bg-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: content-box;
+  width: 270px;
+  height: 120px;
+}
+
 .features-list .item + .item {
   margin-left: 30px;
 }
@@ -286,7 +299,7 @@ ul {
   margin-bottom: 30px;
 }
 .team p {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 .features-box .title {
   margin-bottom: 10px;
@@ -295,6 +308,40 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+}
+.features-card .icon-link + .icon-link {
+  margin-left: 10px;
+}
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--primary-bg-color);
+}
+.features-card {
+  color: #afb1b8;
+  display: flex;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 30px;
+}
+
+.icon-link {
+  color: #afb1b8;
+  width: 44px;
+  height: 44px;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  fill: currentColor;
+}
+.social-link {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-size: contain;
 }
 /* Section our clients */
 .our-clients {
@@ -325,9 +372,6 @@ ul {
 .items .footer-link:first-child {
   margin-bottom: 9px;
 }
-/* .items .footer-link:last-child {
-  padding-bottom: 60px;
-} */
 
 .footer {
   padding-bottom: 60px;
