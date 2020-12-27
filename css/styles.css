@@ -150,6 +150,7 @@ ul {
 .hero-container {
 }
 .hero {
+  background-image: url(../images/);
   padding-bottom: 280px;
   padding-top: 200px;
   background-color: var(--second-bg-color);
