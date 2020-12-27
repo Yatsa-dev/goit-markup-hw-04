@@ -54,26 +54,36 @@ h6 {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-
+.auth-icon {
+  fill: currentColor;
+  box-sizing: content-box;
+  padding-right: 10px;
+}
+.send {
+  display: flex;
+}
 .auth-nav {
   display: flex;
   align-items: center;
 }
-.auth-nav .send {
-  /* display: block; */
+.auth-nav .send:hover .auth-nav .send:focus {
+  fill: var(--accent-color);
   margin-top: 32px;
   margin-bottom: 32px;
 }
 .auth-nav .send + .send {
-  margin-left: 50px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-left: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
 }
-
+.auth-icon:hover,
+.auth-icon:focus {
+  color: var(--accent-color);
+}
 .logo-container {
   align-items: center;
   display: flex;
@@ -81,7 +91,6 @@ h6 {
 
 .auth-nav .link {
   display: block;
-
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
