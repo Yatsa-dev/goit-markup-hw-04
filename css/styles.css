@@ -164,7 +164,7 @@ ul {
 .hero {
   background-image: url(../images/Img14-1.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 
   padding-bottom: 280px;
